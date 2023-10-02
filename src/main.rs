@@ -1,7 +1,7 @@
 use std::env;
 mod primeGenerator;
 use primeGenerator::PrimeGenerator;
-
+mod RSAA;
 fn main() {
     let args: Vec<String> = env::args().collect();
   
